@@ -84,6 +84,7 @@ function edr_get_currencies() {
 		'MYR' => __( 'Malaysian Ringgits', 'educator' ),
 		'MXN' => __( 'Mexican Peso', 'educator' ),
 		'NZD' => __( 'New Zealand Dollar', 'educator' ),
+		'NGN' => __( 'Nigerian Naira', 'educator' ),
 		'NOK' => __( 'Norwegian Krone', 'educator' ),
 		'PHP' => __( 'Philippine Pesos', 'educator' ),
 		'PLN' => __( 'Polish Zloty', 'educator' ),
@@ -130,6 +131,7 @@ function edr_get_currency_symbol( $currency ) {
 		case 'HKD':
 		case 'MXN':
 		case 'NZD':
+		case 'NGN':
 		case 'SGD':
 			$cs = "&#36;";
 			break;
